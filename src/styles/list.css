@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Poppins" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ff0505;
+    /* font-weight: bold; */
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none !important;
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border: 1px solid #ff0505;
+    width: 400px;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.modal-confirm {
+    margin-left: -25px;
+}
+
+.navbar-expand-lg.bg-info {
+    background-color: #ff0505 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255, 1) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+}
+
+.form-control {
+    border: 1px solid #ff0505 !important;
+}
